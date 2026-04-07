@@ -99,3 +99,32 @@
     border: none;
     cursor: pointer;
 }
+
+.progressBar{
+    background-color: rgb(232, 231, 231);
+    width: 320px;
+    height: 120px;
+    display: flex;
+}
+
+.progressBar .textLine{
+    margin: auto;
+    background-color: lightgray;
+    width: 100%;
+    text-align: center;
+    /* justify-content: center;
+    display: flex; */
+    /* mix-blend-mode: difference; */
+    
+}
+
+.progressBar .textLine .a{
+    margin: 0;
+}
+
+.progressBar .textLine .redRectangle{
+    background-color: red;
+    width: 50%;
+    height: 100%;
+}
+
