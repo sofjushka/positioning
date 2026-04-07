@@ -109,22 +109,22 @@
 
 .progressBar .textLine{
     margin: auto;
-    background-color: lightgray;
+    /*background-color: lightgray;*/
+    background-color: red;
     width: 100%;
     text-align: center;
-    /* justify-content: center;
-    display: flex; */
-    /* mix-blend-mode: difference; */
-    
 }
 
 .progressBar .textLine .a{
     margin: 0;
+    color: white;
+    mix-blend-mode: difference;
 }
 
 .progressBar .textLine .redRectangle{
     background-color: red;
     width: 50%;
     height: 100%;
+    /*z-index: 50;*/
 }
 
