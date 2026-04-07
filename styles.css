@@ -128,3 +128,54 @@
     /*z-index: 50;*/
 }
 
+.acc-toggle:checked + .acc-header {
+    background: #f5f5f5;
+}
+
+.acc-toggle:checked + .acc-header::before {
+    transform: rotate(90deg);
+}
+
+.acc-toggle:checked + .acc-header + .acc-body {
+    max-height: 200px;
+}
+
+
+.accordion {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.acc-toggle {
+    display: none;
+}
+
+.acc-header {
+    display: block;
+    background: #e8e8e8;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.acc-header:hover {
+    background: #dcdcdc;
+}
+
+.acc-header::before {
+    content: '▶';
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.acc-body {
+    max-height: 0;
+    overflow: auto;
+    background: #fff;
+}
+
+.acc-body p {
+    padding: 15px 15px 15px 15px;            
+    margin: 0;                   
+}
